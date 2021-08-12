@@ -7,9 +7,7 @@ const port = 6969;
 const objectToReturnOnApiEndpoint = {"message": "Hello World!"};
 const errorMessage = {"message": "Resource not found!"}
 
-
 // API is located at localhost:port/api !
-
 
 // Creating the /api endpoint
 app.get("/api", (req, res) => {
