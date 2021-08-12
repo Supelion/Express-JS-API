@@ -13,6 +13,9 @@ const errorMessage = {"message": "Resource not found!"}
 
 // Creating the /api endpoint
 app.get("/api", (req, res) => {
+    numOfRequests += 1;
+    console.log(`Request recieved! Number of requests recieved: ${numOfRequests}`)
+
     res.json(objectToReturnOnApiEndpoint);
 });
 
