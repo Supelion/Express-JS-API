@@ -1,6 +1,0 @@
-{
-    "name": "Express JS Hypixel API",
-    "description": "A Node.js Hypixel API that requires no API key.",
-    "repository": "https://github.com/Supelion/Express-JS-API",
-    "keywords": ["node", "express", "hypixel-api", "hypixel"]
-  }
