@@ -30,7 +30,7 @@ const invalidPlayerError = {
 app.get("/", (req, res) => {
     res.send(`<h1>Hey! Welcome to the Express JS API.</h1>
     <a href = '/api/v1/player'>Player API</a>
-    <p>Report bugs to Supelion#4275 on Discord.</p>`);
+    <p>Report bugs to Mutyyab.#4275 on Discord.</p>`);
     res.end();
 });
 
